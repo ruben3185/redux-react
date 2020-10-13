@@ -4,7 +4,7 @@ import { connect } from "react-redux"
 const Suplentes = ({suplentes, quitarSuplente}) => (
     <section>
         <h1>Suplentes</h1>
-        <div className='cancha'>
+        <div className="suplentes">
             {
                 suplentes.map(j => (
                     <article className='suplentes' key={j.id}>
